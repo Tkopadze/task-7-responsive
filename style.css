@@ -6,8 +6,9 @@ html{
     font-size:10px;
 }
 .logo, .footerLogo{
-font-size: 12.8rem;
-font-weight: 500;
+font-size: 64px;
+font-weight: 400;
+
 
 color:rgba(255, 255, 255, 1);
 }
@@ -242,6 +243,10 @@ color:rgba(255, 255, 255, 1);
 @media all and (min-width:1024px){
 .footer .footerLogo{
     display: block;
+}
+.logo, .footerLogo{
+    font-size: 12.8rem;
+font-weight: 500;
 }
 .insta{
     width: 80px;
