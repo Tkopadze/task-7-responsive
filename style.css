@@ -169,8 +169,8 @@ color:rgba(255, 255, 255, 1);
         line-height: 56px;      
     }
     .insta{
-        width:67px;
-    height:67px;
+        width: 80px;
+        height: 80px
     }
     .footer{
         height: 217px;
@@ -293,13 +293,17 @@ padding-bottom: 6%;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
-    width: 42.1%;
+    width: 400px;
  }
  .content-about{
     justify-content: space-evenly;
+    width: 86%;
  }
  .about-wrap{
     justify-content: center;
+ }
+ .photo-wrap{
+    width:115%;
  }
 }
 @media all and (min-width:1440px){
@@ -327,7 +331,11 @@ padding-bottom: 6%;
 }
 .photo-wrap img{
     display: none;
+    
 }
+.photo-wrap{
+    width:103%;
+ }
 .contentImg834{
     height: 320px;
     width: 565px;
